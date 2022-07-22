@@ -34,12 +34,12 @@
     let element = document.querySelector('ul')
     element.innerHTML =  `
 <div>
-  <li>${arr[0].name}</li>
-  <li>${arr[0].surname}</li>
-  <li>${arr[0].middleName}</li>
-  <li>${arr[0].birthday}</li>
-  <li>${arr[0].year}</li>
-  <li>${arr[0].faculty}</li>
+  <pre>${arr[0].name}</pre>
+  <pre>${arr[0].surname}</pre>
+  <pre>${arr[0].middleName}</pre>
+  <pre>${arr[0].birthday}</pre>
+  <pre>${arr[0].year}</pre>
+  <pre>${arr[0].faculty}</pre>
 </div>
   `
     ;
@@ -48,3 +48,11 @@
       </script> 
 </body>
 </html>
+
+<!-- // Register Navigation Menus<br>
+function test() {<br>
+	$locations = array(<br>
+	);<br>
+	register_nav_menus( $locations );<br>
+}<br>
+add_action( 'init', 'test' ); -->
